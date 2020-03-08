@@ -1,0 +1,16 @@
+{
+  "name": "benion-portfolio",
+  "version": "1.0.0",
+  "description": "Benion Responsive Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testsass": "echo \"Hello From Sass script\"",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Bernard Iorver",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
