@@ -1,5 +1,6 @@
 $primary-color: #444;
 $secondary-color: #eece1a;
+$benion-color: #3aec3a;
 $show-home-image: true;
 $home-image: url(../images/avatars.jpg);
 $background-opacity: 0.7;
@@ -26,6 +27,15 @@ $background-opacity: 0.7;
                 background: rgba($primary-color, $background-opacity);
             }
         }
+    }
+}
+
+// Set Text Color
+@function  set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return #000;
+    } @else {
+        @return #fff;
     }
 }
 
