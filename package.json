@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "Benion Responsive Portfolio",
   "main": "index.js",
+  "homepage": "https://benion28.github.io/benion-portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "testsass": "echo \"Hello From Sass script\"",
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Bernard Iorver",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   }
 }
